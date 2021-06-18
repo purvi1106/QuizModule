@@ -1,0 +1,63 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="style.css">
+        <title> Quiz App </title>
+        </head>
+    <body>
+    <div id="QuizModule">  <!--MAIN DIV-->
+
+        <!--FIRST DIV-->
+        <div class="first-div"><h1 id="heading"> Quiz </h1></div>
+
+        <!--SHOW CORRECT/INCORRECT DIV-->
+        <div class="check-div">
+            <button id="crtbtn" style="display:none;">Correct Answer</button>
+            <button id="wrngbtn" style="display:none;">Wrong Answer</button>
+            <button id="invalidbtn" style="display:none;">Please select an option</button>
+        </div>
+
+        <!--SECOND DIV-->
+        <div class="Second-div">
+             <strong><div id="Questions"></div></strong>  
+
+        <div id ="Options">
+    <label class="option"><input type="radio" name="option" value="1"> <span id="opt1">
+    </span></label> <br>
+    <label class="option"><input type="radio" name="option" value="2"> <span id="opt2">
+    </span></label> <br>
+    <label class="option"><input type="radio" name="option" value="3"> <span id="opt3">
+    </span></label> <br>
+    <label class="option"><input type="radio" name="option" value="4"> <span id="opt4">
+    </span></label> <br>   
+        </div>
+
+    <div>
+        <button id="Nextbtn" onclick="SubmitQuestion()">Submit</button>
+        <button id="btn" onclick="loadNextQuestion()" style="display:none;">Next</button>
+    </div>
+    
+
+        </div>
+     </div> <!--MAIN DIV END-->
+     
+     <!--RESULT DIV-->
+     <div>
+        <div id="result" style="display:none;"> </div>
+        <div id="answerkey" style="display:none;">
+            <b><h2>Answer Key</h2></b>
+            <div style="background-color:gainsboro; padding:20px 0px 20px 0px"> 
+                <ol>
+                    <li>Which one of the following is a markup language?-<button id='answerbtn'>HTML</button></li><br>
+                    <li>What is the full form of CSS?<button id='answerbtn'>Cascading Style Sheet</button></li><br>
+                    <li>The property in CSS used to change the background color of an element is-<button id='answerbtn'>background-color</button></li><br>
+                    <li>Are the negative values allowed in padding property?<button id='answerbtn'>No</button></li><br>
+                    <li>Which if the following CSS function allows us to perform calculations?<button id='answerbtn'>calc() function</button></li>
+                </ol>
+            </div>   
+        </div>
+        <div class="resetbtn-div"><button id="resetbtn" onclick="ReloadTest()" style="display:none;">Reset</button></div>
+    </div>
+     </body>
+     <script src="script.js" type="text/javascript"> 
+    </script>
+</html>

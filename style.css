@@ -1,0 +1,80 @@
+.first-div{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+.Second-div{
+    background-color:gainsboro;
+    padding: 20px 0px 20px 10px;
+    margin-top: 0px;
+}
+#Questions{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#Options{
+margin-bottom: 30px;
+font-size:20px;
+}
+#Nextbtn{
+    background-color: yellow;
+    border:none;
+    font-size: 23px;
+}
+#result{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    font-size: 30px;
+}
+#resetbtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+}
+.resetbtn-div{
+    text-align: center;
+}
+#answerbtn{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 15px;
+
+}
+#btn{
+     background-color: green;
+     color:white;
+    border:none;
+    font-size: 23px;
+}
+#crtbtn{
+    border: none;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color:green;
+    color:white;
+}
+#wrngbtn{
+    border: none;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color:red;
+    color:white;
+}
+.check-div{
+ text-align: center;
+ margin-bottom: 15px;
+}
+#invalidbtn{
+    border: none;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color: yellow;
+    color: black;
+
+}
